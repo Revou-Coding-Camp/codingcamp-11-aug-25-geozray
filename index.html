@@ -16,19 +16,83 @@
 <body>
 
     <!--Main header -->
-    <header>
-        <div class="bg-blue-500 rounded-full h-[100px] w-[100px]"
+    <header class="text flex justify-between p-[12px] text items-center justify-between p-[33px] bg-blue-900">
+        <!-- Logo Icon -->
+        <div class="bg-amber-900 rounded-[33px] h-[93px] w-[93px] main-logo"></div>
+    
+        <!-- Name -->
+        <div class="text-sky-300 font-bold text-[65px]">GEOMENT.ID</div>
+        <nav>
+            <ul class="flex gap-[12px]">
+                <li><a href="#home-page" class="text-black-700 border py-[5px] px-[8px] rounded-[8px] hover:text-gray-900">Home</a></li>
+                <li><a href="#our-profile" class="text-black-700 border py-[5px] px-[8px] rounded-[8px] hover:text-gray-900">Our Profile</a></li>
+                <li><a href="#portofolio" class="text-black-700 border py-[5px] px-[8px] rounded-[8px] hover:text-gray-900">Portofolio</a></li>
+                <li><a href="#message-us" class="text-black-700 border py-[5px] px-[8px] rounded-[8px] hover:text-gray-900">Message Us</a></li>
+            </ul>
+        </nav>
 
     </header>
+
+    <hr />
 
     <!-- Main content -->
      <main>
 
+        <!-- Home -->
+        <section id="home-page" class="h-[900px] bg-sky-100">
+            <div class="flex items-center justify-center h-full">
+                <h1 class="text-5xl font-bold text-gray-800">Welcome <span id="user-greeting"></span> To GEOMENT.ID</h1>
+            </div>
+        </section>
+
+        <hr/>
+
+
+        <!-- Our Profile -->
+        <section id="our-profile" class="text-center h-[900px] bg-sky-100">
+            <header>
+                <h1 class="text-4xl font-bold text-gray-800">Our Profile</h1>
+            </header>
+
+            <p class="text-gray-600">
+                Geoment.id is a leading provider of geospatial solutions, offering a wide range of services to help businesses harness the power of location data.
+            </p>
+        </section>
+
+        <hr/>
+
+        <!-- Portofolio -->
+        <section id="portofolio" class="text-center h-[900px] bg-sky-100">
+            <header>
+                <h1 class="text-4xl font-bold text-gray-800">Portofolio</h1>
+            </header>
+
+            <p class="text-gray-600">
+                Our portfolio showcases a diverse range of successful projects that demonstrate our expertise in geospatial solutions.
+            </p>
+        </section>
+
+        <hr/>
+
+        <!-- Message Us -->
+        <section id="message-us" class="h-[900px] bg-sky-100">
+            <header>
+                <h1 class="text-5xl font-bold text-gray-800">Message Us</h1>
+            </header>
+
+            <form >
+                <label for="user-message" class="block text-gray-700">Your Message:</label>
+                <input id="user-message" type="text" class="border rounded-md w-full p-2"></input>
+                <button type="button" onclick="sendMessage()" class="mt-2 bg-blue-500 text-white py-2 px-4 rounded-md">Send</button>
+            </form>
+        </section>
+
+        <hr/>
      </main>
 
      <!-- footer -->
-      <footer>
-
+      <footer class="text-center">
+        <span>&copy; 2025 OAzri GEOMENT.ID. All rights reserved.</span>
       </footer>
 
     <!-- JS External -->
