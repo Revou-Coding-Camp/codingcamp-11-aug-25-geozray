@@ -2,7 +2,7 @@ console.log("Hello World!");
 
 // welcomeSpeech();
 
-// call the function to welcome speech
+// call the function to welcome speech();
 function welcomeSpeech() {
     let username = prompt("What's your name?");
     if (username != '') {

@@ -3,4 +3,33 @@
     background-size: cover;
     background-position: center;
 }
-
+.main-background {
+    background-image: url('/zjpg/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.profile-background {
+    background-image: url('/zjpg/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.portofolio-background {
+    background-image: url('/zjpg/bg3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.gambar1-background {
+    background-image: url('/zjpg/gk1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.gambar2-background {
+    background-image: url('/zjpg/gk2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.gambar3-background {
+    background-image: url('/zjpg/gk3.jpg');
+    background-size: cover;
+    background-position: center;
+}
