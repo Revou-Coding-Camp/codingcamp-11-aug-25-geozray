@@ -101,28 +101,30 @@
             <header>
                 <h1 class="text-5xl font-bold text-gray-800">Message Us</h1>
             </header>
-        
-            <table class="w-[50px] text-left">
 
             <form >
                 <label for="user-name" class="block text-gray-700">Your Name:</label>
-                <input id="user-name" type="text" class="border rounded-md w-full p-2"></input>
+                <input id="user-name" type="text" class="border rounded-md w-[900px] p-2"></input>
                 <label for="user-email" class="block text-gray-700">Your Email:</label>
-                <input id="user-email" type="email" class="border rounded-md w-full p-2"></input>
-                <label for="user-gender" class="block text-gray-700">Your Gender:</label>
-                <select id="user-gender" class="border rounded-md w-full p-2">
+                <input id="user-email" type="email" class="border rounded-md w-[900px] p-2"></input>
+                <label for="gender" class="block text-gray-700">Your Gender:</label>
+                <select id="gender" class="border rounded-md w-[900px] p-2">
                     <option value="">Select Gender</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     <option value="other">Other</option>
                 </select>
                 <label for="birth-date" class="block text-gray-700">Your Birth Date:</label>
-                <input id="birth-date" type="date" class="border rounded-md w-full p-2"></input>
+                <input id="birth-date" type="date" class="border rounded-md w-[900px] p-2"></input>
                 <label for="user-message" class="block text-gray-700">Your Message:</label>
-                <input id="user-message" type="text" class="border rounded-md w-full p-2"></input>
-                <button type="button" onclick="sendMessage()" class="mt-2 bg-blue-500 text-white py-2 px-4 rounded-md">Send</button>
+                <input id="user-message" type="text" class="border rounded-md w-[900px] p-2"></input>
+                <button type="button" onclick="sendMessage()" class="mt-4 bg-blue-500 text-white py-[10px] px-[19px] rounded-md">Send</button>
             </form>
-            </table>
+            <div class="message-us">
+                <h2>Message Sent!</h2>
+                <div id="outputmessage" class="text-gray-700">
+                </div>
+            </div>
         </section>
 
         <hr/>
