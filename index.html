@@ -104,25 +104,26 @@
 
             <form >
                 <label for="user-name" class="block text-gray-700">Your Name:</label>
-                <input id="user-name" type="text" class="border rounded-md w-[900px] p-2"></input>
+                <input id="user-name" type="text" class="border rounded-md w-full p-2"></input>
                 <label for="user-email" class="block text-gray-700">Your Email:</label>
-                <input id="user-email" type="email" class="border rounded-md w-[900px] p-2"></input>
+                <input id="user-email" type="email" class="border rounded-md w-full p-2"></input>
                 <label for="gender" class="block text-gray-700">Your Gender:</label>
-                <select id="gender" class="border rounded-md w-[900px] p-2">
+                <select id="gender" class="border rounded-md w-full p-2">
                     <option value="">Select Gender</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     <option value="other">Other</option>
                 </select>
                 <label for="birth-date" class="block text-gray-700">Your Birth Date:</label>
-                <input id="birth-date" type="date" class="border rounded-md w-[900px] p-2"></input>
+                <input id="birth-date" type="date" class="border rounded-md w-full p-2"></input>
                 <label for="user-message" class="block text-gray-700">Your Message:</label>
-                <input id="user-message" type="text" class="border rounded-md w-[900px] p-2"></input>
+                <input id="user-message" type="text" class="border rounded-md w-full p-2"></input>
                 <button type="button" onclick="sendMessage()" class="mt-4 bg-blue-500 text-white py-[10px] px-[19px] rounded-md">Send</button>
             </form>
             <div class="message-us">
                 <h2>Message Sent!</h2>
-                <div id="outputmessage" class="text-gray-700">
+                <div id="output-user-message displayed" class="text-gray-700 border rounded-md w-full p-70">
+                    <!-- Output message will be displayed here -->
                 </div>
             </div>
         </section>
